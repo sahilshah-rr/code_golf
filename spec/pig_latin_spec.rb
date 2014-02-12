@@ -1,4 +1,6 @@
-require File.join(File.dirname(__FILE__), 'pig_latin')
+# Original require File.join(File.dirname(__FILE__), 'pig_latin')
+require_relative File.join('..', 'pig_latin', 'pig_latin')
+# require_relative File.join('..', 'pig_latin', 'pig_latin_readable')
 
 describe PigLatin do
   describe '.translate' do
